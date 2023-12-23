@@ -1,3 +1,16 @@
-*{
-    
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+h2{
+    font-size: 5rem;
+    color: red;
+}
+
+#btn{
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
 }
