@@ -1,0 +1,162 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, #F3F8FF 0%, #F8DE22 100%);
+    position: relative;
+}
+
+.social{
+    width: 3.5em;
+    height: 14em;
+    background-color: #0F0F0F;
+    position: absolute;
+    left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+i{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+
+i:nth-child(3){
+    color: red;
+    transition: .3s;
+}
+
+i:nth-child(3):hover{
+    transform: scale(1.2);
+}
+
+.card{
+    width: 30rem;
+    height: 35rem;
+    background-color: white;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: .3rem;
+    padding: 3rem;
+}
+
+.round-box{
+    border: 5px solid #7743DB;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    padding: 4rem 5rem;
+    background-image: url('images/thalaa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 50px yellow;
+}
+
+#id{
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    background-color: #F1EAFF;
+    transition: .3s;
+    font-family: 'Lilita One', sans-serif;
+    border: none;
+}
+
+#id:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px .5px #232D3F;
+}
+
+button{
+    font-size: 3rem;
+    border-radius: 1rem;
+    padding: .8rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: .3s;
+    font-family: 'Lilita One', sans-serif;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 8px 8px .5px #232D3F;
+}
+
+
+
+
+/* @media responsive */
+
+@media screen and (max-width: 480px) {
+    .card{
+        width: 25rem;
+        height: 35rem;
+    }
+    #id{
+        font-size: 1.6rem;
+    }
+    button{
+        font-size: 2.3rem;
+    }
+    .social{
+        width: 3.2rem;
+        height: 14rem;
+        top: 18px;
+    }
+    
+    .round-box{
+        width: 9rem;
+        height: 9rem;
+        padding: .2rem .2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card{
+        width: 20rem;
+        height: 32rem;
+    }
+    #id{
+        font-size: 1.3rem;
+    }
+    button{
+        font-size: 2rem;
+    }
+    .social{
+        width: 3.2rem;
+        height: 14rem;
+        top: 40px;
+    }
+    .round-box{
+        width: 8rem;
+        height: 8rem;
+        padding: .2rem .2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card{
+        width: 17rem;
+        height: 32rem;
+    }
+    #id{
+        font-size: 1.1rem;
+    }
+    button{
+        font-size: 1.7rem;
+    }
+    .social{
+        width: 3rem;
+        height: 13rem;
+        top: 43px;
+    }
+    .round-box{
+        width: 8rem;
+        height: 8rem;
+        padding: .2rem .2rem;
+    }
+}
+
